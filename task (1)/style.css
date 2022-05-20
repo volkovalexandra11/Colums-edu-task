@@ -16,6 +16,7 @@ body {
 
 .country-grid__item-first-letter {
     font-size: 30px;
+    margin-bottom: 40px;
 }
   
 .country-grid__item {
@@ -35,7 +36,7 @@ body {
 .country__statistics_container {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     gap: 16px;
 }
 
