@@ -53,7 +53,7 @@
             return (
                 <article className="country">
                     <img className="country__flag" src={flag} alt="" />
-                    
+                    <section className="country__info">
                     <header className="country__names">
                         <p className="country__names_name">{name}</p>
                         <p className="country__names_fullname">{fullname}</p>
@@ -73,6 +73,7 @@
                                 <dd className="area__value">{area}&nbsp;км<sup><small>2</small></sup></dd>
                             </div>
                         </dl>
+                    </section>
                 </article>
             );
         }
