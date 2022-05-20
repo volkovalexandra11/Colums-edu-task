@@ -107,15 +107,9 @@ body {
 }
 
 /* Media queries */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 768px) {
     .country-grid {
-        columns: 5;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .country-grid {
-      columns: 4;
+      columns: 2;
     }
 }
 
@@ -125,11 +119,19 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
     .country-grid {
-      columns: 2;
+      columns: 4;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .country-grid {
+        columns: 5;
+    }
+}
+
+
   
   
   
