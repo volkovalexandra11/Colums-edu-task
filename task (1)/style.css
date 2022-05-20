@@ -78,7 +78,7 @@ body {
 .country__statistics {
     display: flex;
     margin-top: 0px;
-    line-height: 1;
+    line-height: 1.4;
     column-gap: 16px;
     flex-wrap: wrap;
     row-gap: 8px;
